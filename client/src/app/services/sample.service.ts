@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ethers } from "ethers";
 import { environment } from "../../environments/environment";
-import Sample from '../../../contracts/contracts_Sample_sol.json'
+import Sample from '../../../../contracts/contracts_Sample_sol.json'
 import detectEthereumProvider from '@metamask/detect-provider';
 
 @Injectable({
